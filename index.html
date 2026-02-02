@@ -14,14 +14,14 @@
         }
 
         :root {
-            --primary: #3b82f6;
-            --primary-light: #60a5fa;
-            --secondary: #0ea5e9;
-            --accent: #14b8a6;
-            --dark: #0f172a;
-            --darker: #020617;
-            --light: #f1f5f9;
-            --gray: #94a3b8;
+            --primary: #64748b;
+            --primary-light: #94a3b8;
+            --secondary: #78716c;
+            --accent: #a1a1aa;
+            --dark: #18181b;
+            --darker: #09090b;
+            --light: #fafafa;
+            --gray: #a1a1aa;
         }
 
         html {
@@ -54,9 +54,9 @@
             width: 100%;
             height: 100%;
             background:
-                radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.12) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(14, 165, 233, 0.12) 0%, transparent 50%),
-                radial-gradient(circle at 40% 40%, rgba(20, 184, 166, 0.08) 0%, transparent 40%);
+                radial-gradient(circle at 20% 80%, rgba(100, 116, 139, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(120, 113, 108, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(161, 161, 170, 0.05) 0%, transparent 40%);
             animation: pulse 8s ease-in-out infinite;
         }
 
@@ -819,7 +819,7 @@
             position: fixed;
             width: 300px;
             height: 300px;
-            background: radial-gradient(circle, rgba(59, 130, 246, 0.12) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(100, 116, 139, 0.08) 0%, transparent 70%);
             border-radius: 50%;
             pointer-events: none;
             z-index: 0;
@@ -950,7 +950,7 @@
                     <div class="project-icon"><i class="fas fa-map-marked-alt"></i></div>
                     <span class="project-badge">In Development</span>
                 </div>
-                <h3 class="project-title">CareerMap Pro</h3>
+                <h3 class="project-title">LevlD</h3>
                 <p class="project-subtitle">AI-Driven Career Intelligence Platform</p>
                 <p class="project-description">
                     A comprehensive full-stack platform for personalized career development, featuring intelligent skill assessment, learning path generation, and progression tracking.
@@ -1168,7 +1168,7 @@
                 particle.style.animationDelay = Math.random() * 15 + 's';
                 particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
 
-                const colors = ['#3b82f6', '#0ea5e9', '#14b8a6', '#60a5fa'];
+                const colors = ['#64748b', '#78716c', '#a1a1aa', '#94a3b8'];
                 particle.style.background = colors[Math.floor(Math.random() * colors.length)];
 
                 container.appendChild(particle);
